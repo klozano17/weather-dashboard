@@ -6,12 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+
+
 </head>
 
+
 <body>
-    <header>
-        <h1 class="text-center bg-primary text-white p-3">Weather Dashboard</h1>
-    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center bg-primary text-white p-3">Weather Dashboard</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">Enter a City Name to Search for Current Weather Conditions and a 5-Day Forecast</h2>
+            </div>
+        </div>
+    </div>
+
 
     <main>
         <main class="col-12 container">
@@ -24,6 +41,7 @@
                     </form>
                     <form id="history"></form>
                 </div>
+
 
                 <div class="col-9 weather-container container">
                     <div class="header-container container header-border">
@@ -42,6 +60,7 @@
                     </div>
 
                     <h3>5-Day Forecast:</h3>
+
                     <div class="container">
                         <div id="five-day-forecast" class="row">
                             <div class="col">
@@ -87,9 +106,33 @@
                     </div>
                 </div>
             </div>
+
+
+
+
     </main>
 
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center">Weather Dashboard</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+crossorigin="anonymous"></script>
 <script src="./assets/js/script.js"></script>   
+
+
 
 </body>
 </html>
